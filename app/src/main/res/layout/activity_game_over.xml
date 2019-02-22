@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    tools:context=".GameOverActivity">
+<TextView
+    android:id="@+id/gameover"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Game Over"
+    android:textSize="70dp"
+    android:textColor="@color/colorAccent"
+    android:layout_marginTop="80dp"
+    android:textAlignment="center"
+    android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/start_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gameover"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginRight="73dp"
+        android:text="Start Again"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/start_btn"
+        android:layout_marginTop="137dp"
+        android:text="Score"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:textColor="@color/colorAccent"/>
+</RelativeLayout>
