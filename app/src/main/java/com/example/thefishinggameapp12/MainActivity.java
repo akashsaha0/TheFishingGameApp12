@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         gameView =new FlyingFishView(this);
         setContentView(gameView);
-        Timer timer =new Timer();
+        Timer timer =new Timer();s
         timer.schedule(new TimerTask() {
             public void run() {
                 handler.post(new Runnable() {
